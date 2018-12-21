@@ -1,0 +1,31 @@
+body {
+    padding: 5;
+    margin: 5;
+  }
+  
+  #map,
+  body,
+  html {
+    height: 100%;
+  }
+  
+  .legend {
+    line-height: 18px;
+    color: yellow;
+  }
+  .legend i {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+  }
+  
+  .leaflet-bottom.leaflet-left{
+    width: 85%;
+  }
+  .container {
+    color: rgb(44, 168, 44);
+    text-align: center;
+  }
+  

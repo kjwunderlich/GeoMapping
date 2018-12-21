@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Earthquake Vis</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+  crossorigin=""/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    
+  <!-- header -->
+  <div class="jumbotron">
+      <div class="container">
+          <div class="box">
+          <h1>Earthquake Map</h1>
+          <p>This map shows earthquake data pulled over the last 7 days. The circle's color and size correlate
+              to the magnitude of each earthquake. Click the circles to learn more about a specific quake.  
+          </p>
+          </div>
+      </div>
+  </div>
+
+  </div class="container-fluid">
+      <!-- map -->
+      <div class="panel panel-default">
+          <div class="panel-body">
+              <div style="text-align: center"></div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Map goes here -->
+  <div id="map"></div>
+
+  <!-- D3 javascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+  <!-- Leaflet JavaScript -->
+  <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+  <!-- API key -->
+  <script type="text/javascript" src="config.js"></script>
+  <!-- Our JS -->
+  <script type="text/javascript" src="logic.js"></script>
+
+</body>
+</html>
